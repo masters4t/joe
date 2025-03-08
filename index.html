@@ -9,8 +9,21 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #84fab0, #8fd3f4);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
             color: #332;
+        }
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
         header {
             background-color: #4CAF50;
@@ -48,8 +61,8 @@
 </head>
 <body>
     <header>
-        <h1>2409杀神榜</h1>
-		<h2>一切为了更好的九班</h2>
+        <h1>2409班级榜</h1>
+        <h2>一切为了更好的九班</h2>
     </header>
     <nav>
         <a href="#home">每周更新</a>
@@ -59,13 +72,13 @@
     </nav>
     <main>
         <section id="home">
-            <h2>每周杀神榜前三位更新</h2>
+            <h2>每周杀神榜前二位更新</h2>
             <p>第一位：吴玥辰：
-			大公无私，六亲不认，消名率5%，居榜首。
-			</p>
-			<p>第二位：周嘉乐：
-			高傲自大，以为所有人都值得被记，消名率10%。
-			</p>
+            大公无私，六亲不认，消名率5%，居榜首。
+            </p>
+            <p>第二位：周嘉乐：
+            高傲自大，以为所有人都值得被记，消名率10%。
+            </p>
         </section>
         <section id="about">
             <h2>关于我</h2>
@@ -76,16 +89,16 @@
             <p>职员：</p>
             <ul>
                 <li>班主任：陈**</li>
-				<li>班长：周嘉乐</li>
-				<li>副班长：吴玥辰</li>
-				<li>语文课代表：陈**，范**，刘**</li>
-				<li>值日班长：田余馨，周嘉乐，吴玥辰，李静涵，刘一可</li>
-				<li>英语课代表：阳**，周**，印**；   临时英语课代表：刘*（电教委员）</li>
-				<li>数学课代表：李**，周**，田**</li>
-				<li>消名方法：</li>
-				<li>1.请人做证明</li>
-				<li>2.找老师求情/以老师名义消除</li>
-				<li>3.软磨硬泡...</li>
+                <li>班长：周嘉乐</li>
+                <li>副班长：吴玥辰</li>
+                <li>语文课代表：陈**，范**，刘**</li>
+                <li>值日班长：田余馨，周嘉乐，吴玥辰，李静涵，刘一可</li>
+                <li>英语课代表：阳**，周**，印**；   临时英语课代表：刘*（电教委员）</li>
+                <li>数学课代表：李**，周**，田**</li>
+                <li>消名方法：</li>
+                <li>1.请人做证明</li>
+                <li>2.找老师求情/以老师名义消除</li>
+                <li>3.软磨硬泡...</li>
             </ul>
         </section>
         <section id="contact">
